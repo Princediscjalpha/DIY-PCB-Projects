@@ -1,0 +1,22 @@
+Info: Output directory “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder” created.
+
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-F_Cu.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-B_Cu.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-F_Adhes.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-B_Adhes.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-F_Paste.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-B_Paste.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-F_SilkS.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-B_SilkS.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-F_Mask.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-B_Mask.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-Dwgs_User.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-Cmts_User.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-Eco1_User.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-Eco2_User.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-Edge_Cuts.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-Margin.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-F_CrtYd.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-B_CrtYd.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-F_Fab.gbr” created.
+Plot file “C:\Users\Aman Singh\Desktop\College Project\Con+fb(v+i)\New folder\Con+fb(v+i)-B_Fab.gbr” created.
