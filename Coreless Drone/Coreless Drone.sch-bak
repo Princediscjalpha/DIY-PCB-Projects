@@ -1,0 +1,289 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Transistor_FET:2N7002K Q?
+U 1 1 5EB3B2A7
+P 3520 6920
+F 0 "Q?" H 3724 6966 50  0000 L CNN
+F 1 "2N7002K" H 3724 6875 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3720 6845 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30896.pdf" H 3520 6920 50  0001 L CNN
+	1    3520 6920
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB46DA2
+P 3270 7120
+F 0 "R?" H 3340 7166 50  0000 L CNN
+F 1 "R" H 3340 7075 50  0000 L CNN
+F 2 "" V 3200 7120 50  0001 C CNN
+F 3 "~" H 3270 7120 50  0001 C CNN
+	1    3270 7120
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3270 6970 3270 6920
+Wire Wire Line
+	3270 6920 3320 6920
+Wire Wire Line
+	3270 7270 3620 7270
+Wire Wire Line
+	3620 7270 3620 7120
+$Comp
+L Device:R R?
+U 1 1 5EB48BCB
+P 3270 6770
+F 0 "R?" H 3340 6816 50  0000 L CNN
+F 1 "R" H 3340 6725 50  0000 L CNN
+F 2 "" V 3200 6770 50  0001 C CNN
+F 3 "~" H 3270 6770 50  0001 C CNN
+	1    3270 6770
+	1    0    0    -1  
+$EndComp
+Connection ~ 3270 6920
+$Comp
+L power:GND #PWR?
+U 1 1 5EB49403
+P 3620 7330
+F 0 "#PWR?" H 3620 7080 50  0001 C CNN
+F 1 "GND" H 3625 7157 50  0000 C CNN
+F 2 "" H 3620 7330 50  0001 C CNN
+F 3 "" H 3620 7330 50  0001 C CNN
+	1    3620 7330
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3620 7330 3620 7270
+Connection ~ 3620 7270
+$Comp
+L Transistor_FET:2N7002K Q?
+U 1 1 5EB4D75C
+P 4520 6960
+F 0 "Q?" H 4724 7006 50  0000 L CNN
+F 1 "2N7002K" H 4724 6915 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4720 6885 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30896.pdf" H 4520 6960 50  0001 L CNN
+	1    4520 6960
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB4D762
+P 4270 7160
+F 0 "R?" H 4340 7206 50  0000 L CNN
+F 1 "R" H 4340 7115 50  0000 L CNN
+F 2 "" V 4200 7160 50  0001 C CNN
+F 3 "~" H 4270 7160 50  0001 C CNN
+	1    4270 7160
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4270 7010 4270 6960
+Wire Wire Line
+	4270 6960 4320 6960
+Wire Wire Line
+	4270 7310 4620 7310
+Wire Wire Line
+	4620 7310 4620 7160
+$Comp
+L Device:R R?
+U 1 1 5EB4D76C
+P 4270 6810
+F 0 "R?" H 4340 6856 50  0000 L CNN
+F 1 "R" H 4340 6765 50  0000 L CNN
+F 2 "" V 4200 6810 50  0001 C CNN
+F 3 "~" H 4270 6810 50  0001 C CNN
+	1    4270 6810
+	1    0    0    -1  
+$EndComp
+Connection ~ 4270 6960
+$Comp
+L power:GND #PWR?
+U 1 1 5EB4D773
+P 4620 7370
+F 0 "#PWR?" H 4620 7120 50  0001 C CNN
+F 1 "GND" H 4625 7197 50  0000 C CNN
+F 2 "" H 4620 7370 50  0001 C CNN
+F 3 "" H 4620 7370 50  0001 C CNN
+	1    4620 7370
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4620 7370 4620 7310
+Connection ~ 4620 7310
+$Comp
+L Transistor_FET:2N7002K Q?
+U 1 1 5EB51247
+P 5390 6970
+F 0 "Q?" H 5594 7016 50  0000 L CNN
+F 1 "2N7002K" H 5594 6925 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5590 6895 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30896.pdf" H 5390 6970 50  0001 L CNN
+	1    5390 6970
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB5124D
+P 5140 7170
+F 0 "R?" H 5210 7216 50  0000 L CNN
+F 1 "R" H 5210 7125 50  0000 L CNN
+F 2 "" V 5070 7170 50  0001 C CNN
+F 3 "~" H 5140 7170 50  0001 C CNN
+	1    5140 7170
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5140 7020 5140 6970
+Wire Wire Line
+	5140 6970 5190 6970
+Wire Wire Line
+	5140 7320 5490 7320
+Wire Wire Line
+	5490 7320 5490 7170
+$Comp
+L Device:R R?
+U 1 1 5EB51257
+P 5140 6820
+F 0 "R?" H 5210 6866 50  0000 L CNN
+F 1 "R" H 5210 6775 50  0000 L CNN
+F 2 "" V 5070 6820 50  0001 C CNN
+F 3 "~" H 5140 6820 50  0001 C CNN
+	1    5140 6820
+	1    0    0    -1  
+$EndComp
+Connection ~ 5140 6970
+$Comp
+L power:GND #PWR?
+U 1 1 5EB5125E
+P 5490 7380
+F 0 "#PWR?" H 5490 7130 50  0001 C CNN
+F 1 "GND" H 5495 7207 50  0000 C CNN
+F 2 "" H 5490 7380 50  0001 C CNN
+F 3 "" H 5490 7380 50  0001 C CNN
+	1    5490 7380
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5490 7380 5490 7320
+Connection ~ 5490 7320
+$Comp
+L Transistor_FET:2N7002K Q?
+U 1 1 5EB5531E
+P 6250 6990
+F 0 "Q?" H 6454 7036 50  0000 L CNN
+F 1 "2N7002K" H 6454 6945 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6450 6915 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/ds30896.pdf" H 6250 6990 50  0001 L CNN
+	1    6250 6990
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EB55324
+P 6000 7190
+F 0 "R?" H 6070 7236 50  0000 L CNN
+F 1 "R" H 6070 7145 50  0000 L CNN
+F 2 "" V 5930 7190 50  0001 C CNN
+F 3 "~" H 6000 7190 50  0001 C CNN
+	1    6000 7190
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 7040 6000 6990
+Wire Wire Line
+	6000 6990 6050 6990
+Wire Wire Line
+	6000 7340 6350 7340
+Wire Wire Line
+	6350 7340 6350 7190
+$Comp
+L Device:R R?
+U 1 1 5EB5532E
+P 6000 6840
+F 0 "R?" H 6070 6886 50  0000 L CNN
+F 1 "R" H 6070 6795 50  0000 L CNN
+F 2 "" V 5930 6840 50  0001 C CNN
+F 3 "~" H 6000 6840 50  0001 C CNN
+	1    6000 6840
+	1    0    0    -1  
+$EndComp
+Connection ~ 6000 6990
+$Comp
+L power:GND #PWR?
+U 1 1 5EB55335
+P 6350 7400
+F 0 "#PWR?" H 6350 7150 50  0001 C CNN
+F 1 "GND" H 6355 7227 50  0000 C CNN
+F 2 "" H 6350 7400 50  0001 C CNN
+F 3 "" H 6350 7400 50  0001 C CNN
+	1    6350 7400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 7400 6350 7340
+Connection ~ 6350 7340
+$Comp
+L Sensor_Motion:MPU-6000 U?
+U 1 1 5EB55CFF
+P 9700 2280
+F 0 "U?" H 9700 3161 50  0000 C CNN
+F 1 "MPU-6000" H 9700 3070 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 9700 1480 50  0001 C CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 9700 2130 50  0001 C CNN
+	1    9700 2280
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Espressif:ESP8266EX U?
+U 1 1 5EB57500
+P 3710 2350
+F 0 "U?" H 3710 1161 50  0000 C CNN
+F 1 "ESP8266EX" H 3710 1070 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm" H 3710 1050 50  0001 C CNN
+F 3 "http://espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf" H 3810 1050 50  0001 C CNN
+	1    3710 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_ST_STM32F0:STM32F030K6Tx U?
+U 1 1 5EB5B4B8
+P 6750 2210
+F 0 "U?" H 6700 1121 50  0000 C CNN
+F 1 "STM32F030K6Tx" H 6700 1030 50  0000 C CNN
+F 2 "Package_QFP:LQFP-32_7x7mm_P0.8mm" H 6250 1310 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00088500.pdf" H 6750 2210 50  0001 C CNN
+	1    6750 2210
+	1    0    0    -1  
+$EndComp
+Text GLabel 7370 1710 2    50   Input ~ 0
+ESP_Rx
+Text GLabel 7370 1810 2    50   Input ~ 0
+ESP_Tx
+Wire Wire Line
+	7250 1710 7370 1710
+Wire Wire Line
+	7370 1810 7250 1810
+Text GLabel 4690 2250 2    50   Input ~ 0
+ESP_Rx
+Text GLabel 4690 2150 2    50   Input ~ 0
+ESP_Tx
+Wire Wire Line
+	4690 2150 4610 2150
+Wire Wire Line
+	4610 2250 4690 2250
+$EndSCHEMATC
