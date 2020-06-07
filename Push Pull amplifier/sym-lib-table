@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name 2SA1943RTU)(type Legacy)(uri "C:/Users/Aman Singh/Desktop/Hobby Projects/Library all/2SA1943RTU.lib")(options "")(descr ""))
+  (lib (name 2SC5200)(type Legacy)(uri "C:/Users/Aman Singh/Desktop/Hobby Projects/Library all/2SC5200.lib")(options "")(descr ""))
+)

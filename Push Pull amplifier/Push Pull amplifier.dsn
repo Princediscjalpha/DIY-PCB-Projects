@@ -1,0 +1,332 @@
+(pcb "C:\Users\Aman Singh\Desktop\Hobby Projects\Push Pull amplifier\Push Pull amplifier.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(5.1.5)-3")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  157277 -147625  104013 -147625  104013 -86385.4  157277 -86385.4
+            157277 -147625)
+    )
+    (via "Via[0-1]_800:400_um")
+    (rule
+      (width 250)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component Diode_THT:D_5KPW_P7.62mm_Vertical_AnodeUp
+      (place D1 125070 -93548.2 front 180 (PN D))
+    )
+    (component Diode_THT:D_5KPW_P7.62mm_Vertical_AnodeUp::1
+      (place D2 142011 -93573.6 front 180 (PN D))
+    )
+    (component "Library all:TO545P520X2000X2900-3P"
+      (place Q1 117602 -115418 back 270 (PN 2SA1943RTU))
+    )
+    (component "Library all:TO545P520X2000X2900-3P::1"
+      (place Q2 117678 -137668 back 270 (PN 2SA1943RTU))
+    )
+    (component "Library all:TO545P2020X520X2910-3"
+      (place Q3 143561 -127000 back 90 (PN 2SC5200))
+    )
+    (component "Library all:TO545P2020X520X2910-3::1"
+      (place Q4 143561 -104597 back 90 (PN 2SC5200))
+    )
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+      (place R1 112928 -115494 front 180 (PN R))
+      (place R2 112928 -137719 front 180 (PN R))
+      (place R4 113030 -107874 front 180 (PN R))
+      (place R6 112725 -130099 front 180 (PN R))
+      (place R7 154254 -104673 front 180 (PN R))
+      (place R10 154229 -140945 front 180 (PN R))
+    )
+    (component Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::1
+      (place R3 113030 -104597 front 180 (PN R))
+      (place R5 112725 -126822 front 180 (PN R))
+      (place R8 154254 -126898 front 180 (PN R))
+      (place R9 154229 -137795 front 180 (PN R))
+      (place R11 153568 -115570 front 180 (PN R))
+      (place R12 153568 -118847 front 180 (PN R))
+    )
+  )
+  (library
+    (image Diode_THT:D_5KPW_P7.62mm_Vertical_AnodeUp
+      (outline (path signal 100  4000 0  3918.12 -805.194  3675.83 -1577.42  3283.05 -2285.07
+            2755.87 -2899.17  2115.86 -3394.58  1389.22 -3751.01  605.711 -3953.87
+            -202.597 -3994.87  -1002.61 -3872.31  -1761.58 -3591.22  -2448.42 -3163.1
+            -3035.03 -2605.49  -3497.39 -1941.21  -3816.56 -1197.45  -3979.48 -404.673
+            -3979.48 404.673  -3816.56 1197.45  -3497.39 1941.21  -3035.03 2605.49
+            -2448.42 3163.1  -1761.58 3591.22  -1002.61 3872.31  -202.597 3994.87
+            605.711 3953.87  1389.22 3751.01  2115.86 3394.58  2755.87 2899.17
+            3283.05 2285.07  3675.83 1577.42  3918.12 805.194  4000 0))
+      (outline (path signal 120  4120 0  4040.84 -803.772  3806.38 -1576.66  3425.66 -2288.95
+            2913.28 -2913.28  2288.95 -3425.66  1576.66 -3806.38  803.772 -4040.84
+            0 -4120  -803.772 -4040.84  -1576.66 -3806.38  -2288.95 -3425.66
+            -2913.28 -2913.28  -3425.66 -2288.95  -3806.38 -1576.66  -4040.84 -803.772
+            -4120 0  -4040.84 803.772  -3806.38 1576.66  -3425.66 2288.95
+            -2913.28 2913.28  -2288.95 3425.66  -1576.66 3806.38  -803.772 4040.84
+            0 4120  803.772 4040.84  1576.66 3806.38  2288.95 3425.66  2913.28 2913.28
+            3425.66 2288.95  3806.38 1576.66  4040.84 803.772  4120 0))
+      (outline (path signal 100  0 0  7620 0))
+      (outline (path signal 120  4120 0  5720 0))
+      (outline (path signal 50  -4250 4250  -4250 -4250))
+      (outline (path signal 50  -4250 -4250  9470 -4250))
+      (outline (path signal 50  9470 -4250  9470 4250))
+      (outline (path signal 50  9470 4250  -4250 4250))
+      (pin Rect[A]Pad_3200x3200_um 1 0 0)
+      (pin Oval[A]Pad_3200x3200_um 2 7620 0)
+    )
+    (image Diode_THT:D_5KPW_P7.62mm_Vertical_AnodeUp::1
+      (outline (path signal 50  9470 4250  -4250 4250))
+      (outline (path signal 50  9470 -4250  9470 4250))
+      (outline (path signal 50  -4250 -4250  9470 -4250))
+      (outline (path signal 50  -4250 4250  -4250 -4250))
+      (outline (path signal 120  4120 0  5720 0))
+      (outline (path signal 100  0 0  7620 0))
+      (outline (path signal 120  4120 0  4040.84 -803.772  3806.38 -1576.66  3425.66 -2288.95
+            2913.28 -2913.28  2288.95 -3425.66  1576.66 -3806.38  803.772 -4040.84
+            0 -4120  -803.772 -4040.84  -1576.66 -3806.38  -2288.95 -3425.66
+            -2913.28 -2913.28  -3425.66 -2288.95  -3806.38 -1576.66  -4040.84 -803.772
+            -4120 0  -4040.84 803.772  -3806.38 1576.66  -3425.66 2288.95
+            -2913.28 2913.28  -2288.95 3425.66  -1576.66 3806.38  -803.772 4040.84
+            0 4120  803.772 4040.84  1576.66 3806.38  2288.95 3425.66  2913.28 2913.28
+            3425.66 2288.95  3806.38 1576.66  4040.84 803.772  4120 0))
+      (outline (path signal 100  4000 0  3918.12 -805.194  3675.83 -1577.42  3283.05 -2285.07
+            2755.87 -2899.17  2115.86 -3394.58  1389.22 -3751.01  605.711 -3953.87
+            -202.597 -3994.87  -1002.61 -3872.31  -1761.58 -3591.22  -2448.42 -3163.1
+            -3035.03 -2605.49  -3497.39 -1941.21  -3816.56 -1197.45  -3979.48 -404.673
+            -3979.48 404.673  -3816.56 1197.45  -3497.39 1941.21  -3035.03 2605.49
+            -2448.42 3163.1  -1761.58 3591.22  -1002.61 3872.31  -202.597 3994.87
+            605.711 3953.87  1389.22 3751.01  2115.86 3394.58  2755.87 2899.17
+            3283.05 2285.07  3675.83 1577.42  3918.12 805.194  4000 0))
+      (pin Oval[A]Pad_3200x3200_um 2 7620 0)
+      (pin Rect[A]Pad_3200x3200_um 1 0 0)
+    )
+    (image "Library all:TO545P520X2000X2900-3P"
+      (outline (path signal 50  -4900 3775  15800 3775))
+      (outline (path signal 50  15800 3775  15800 -1925))
+      (outline (path signal 50  15800 -1925  -4900 -1925))
+      (outline (path signal 50  -4900 -1925  -4900 3775))
+      (outline (path signal 100  -4650 3525  15550 3525))
+      (outline (path signal 100  15550 3525  15550 -1675))
+      (outline (path signal 100  15550 -1675  -4650 -1675))
+      (outline (path signal 100  -4650 -1675  -4650 3525))
+      (outline (path signal 100  -4650 800  -1925 3525))
+      (outline (path signal 200  15550 -1675  15550 3525))
+      (outline (path signal 200  15550 3525  -4650 3525))
+      (outline (path signal 200  -4650 3525  -4650 0))
+      (pin Rect[A]Pad_2565x2565_um 1 0 0)
+      (pin Round[A]Pad_2565_um 2 5450 0)
+      (pin Round[A]Pad_2565_um 3 10900 0)
+    )
+    (image "Library all:TO545P520X2000X2900-3P::1"
+      (outline (path signal 200  -4650 3525  -4650 0))
+      (outline (path signal 200  15550 3525  -4650 3525))
+      (outline (path signal 200  15550 -1675  15550 3525))
+      (outline (path signal 100  -4650 800  -1925 3525))
+      (outline (path signal 100  -4650 -1675  -4650 3525))
+      (outline (path signal 100  15550 -1675  -4650 -1675))
+      (outline (path signal 100  15550 3525  15550 -1675))
+      (outline (path signal 100  -4650 3525  15550 3525))
+      (outline (path signal 50  -4900 -1925  -4900 3775))
+      (outline (path signal 50  15800 -1925  -4900 -1925))
+      (outline (path signal 50  15800 3775  15800 -1925))
+      (outline (path signal 50  -4900 3775  15800 3775))
+      (pin Round[A]Pad_2565_um 3 10900 0)
+      (pin Round[A]Pad_2565_um 2 5450 0)
+      (pin Rect[A]Pad_2565x2565_um 1 0 0)
+    )
+    (image "Library all:TO545P2020X520X2910-3"
+      (outline (path signal 127  -4650 -2060  -4650 3140))
+      (outline (path signal 127  -4650 3140  15550 3140))
+      (outline (path signal 127  15550 3140  15550 -2060))
+      (outline (path signal 127  15550 -2060  -4650 -2060))
+      (outline (path signal 127  -4650 -2060  -4650 3140))
+      (outline (path signal 127  -4650 3140  15550 3140))
+      (outline (path signal 127  15550 3140  15550 -2060))
+      (outline (path signal 127  15550 -2060  -4650 -2060))
+      (outline (path signal 500  -5268 -127  -5341.22 -303.777  -5518 -377  -5694.78 -303.777
+            -5768 -127  -5694.78 49.777  -5518 123  -5341.22 49.777  -5268 -127))
+      (outline (path signal 50  -4970 3608  15870 3608))
+      (outline (path signal 50  15870 3608  15870 -2532))
+      (outline (path signal 50  15870 -2532  -4970 -2532))
+      (outline (path signal 50  -4970 -2532  -4970 3608))
+      (outline (path signal 500  -5268 -127  -5341.22 -303.777  -5518 -377  -5694.78 -303.777
+            -5768 -127  -5694.78 49.777  -5518 123  -5341.22 49.777  -5268 -127))
+      (pin Rect[A]Pad_2490x2490_um 1 0 0)
+      (pin Round[A]Pad_2490_um 2 5450 0)
+      (pin Round[A]Pad_2490_um 3 10900 0)
+    )
+    (image "Library all:TO545P2020X520X2910-3::1"
+      (outline (path signal 500  -5268 -127  -5341.22 -303.777  -5518 -377  -5694.78 -303.777
+            -5768 -127  -5694.78 49.777  -5518 123  -5341.22 49.777  -5268 -127))
+      (outline (path signal 50  -4970 -2532  -4970 3608))
+      (outline (path signal 50  15870 -2532  -4970 -2532))
+      (outline (path signal 50  15870 3608  15870 -2532))
+      (outline (path signal 50  -4970 3608  15870 3608))
+      (outline (path signal 500  -5268 -127  -5341.22 -303.777  -5518 -377  -5694.78 -303.777
+            -5768 -127  -5694.78 49.777  -5518 123  -5341.22 49.777  -5268 -127))
+      (outline (path signal 127  15550 -2060  -4650 -2060))
+      (outline (path signal 127  15550 3140  15550 -2060))
+      (outline (path signal 127  -4650 3140  15550 3140))
+      (outline (path signal 127  -4650 -2060  -4650 3140))
+      (outline (path signal 127  15550 -2060  -4650 -2060))
+      (outline (path signal 127  15550 3140  15550 -2060))
+      (outline (path signal 127  -4650 3140  15550 3140))
+      (outline (path signal 127  -4650 -2060  -4650 3140))
+      (pin Round[A]Pad_2490_um 3 10900 0)
+      (pin Round[A]Pad_2490_um 2 5450 0)
+      (pin Rect[A]Pad_2490x2490_um 1 0 0)
+    )
+    (image Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal
+      (outline (path signal 50  6030 1050  -950 1050))
+      (outline (path signal 50  6030 -1050  6030 1050))
+      (outline (path signal 50  -950 -1050  6030 -1050))
+      (outline (path signal 50  -950 1050  -950 -1050))
+      (outline (path signal 120  620 -920  4460 -920))
+      (outline (path signal 120  620 920  4460 920))
+      (outline (path signal 100  5080 0  4340 0))
+      (outline (path signal 100  0 0  740 0))
+      (outline (path signal 100  4340 800  740 800))
+      (outline (path signal 100  4340 -800  4340 800))
+      (outline (path signal 100  740 -800  4340 -800))
+      (outline (path signal 100  740 800  740 -800))
+      (pin Oval[A]Pad_1400x1400_um 2 5080 0)
+      (pin Round[A]Pad_1400_um 1 0 0)
+    )
+    (image Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal::1
+      (outline (path signal 100  740 800  740 -800))
+      (outline (path signal 100  740 -800  4340 -800))
+      (outline (path signal 100  4340 -800  4340 800))
+      (outline (path signal 100  4340 800  740 800))
+      (outline (path signal 100  0 0  740 0))
+      (outline (path signal 100  5080 0  4340 0))
+      (outline (path signal 120  620 920  4460 920))
+      (outline (path signal 120  620 -920  4460 -920))
+      (outline (path signal 50  -950 1050  -950 -1050))
+      (outline (path signal 50  -950 -1050  6030 -1050))
+      (outline (path signal 50  6030 -1050  6030 1050))
+      (outline (path signal 50  6030 1050  -950 1050))
+      (pin Round[A]Pad_1400_um 1 0 0)
+      (pin Oval[A]Pad_1400x1400_um 2 5080 0)
+    )
+    (padstack Round[A]Pad_1400_um
+      (shape (circle F.Cu 1400))
+      (shape (circle B.Cu 1400))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2490_um
+      (shape (circle F.Cu 2490))
+      (shape (circle B.Cu 2490))
+      (attach off)
+    )
+    (padstack Round[A]Pad_2565_um
+      (shape (circle F.Cu 2565))
+      (shape (circle B.Cu 2565))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1400x1400_um
+      (shape (path F.Cu 1400  0 0  0 0))
+      (shape (path B.Cu 1400  0 0  0 0))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_3200x3200_um
+      (shape (path F.Cu 3200  0 0  0 0))
+      (shape (path B.Cu 3200  0 0  0 0))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2490x2490_um
+      (shape (rect F.Cu -1245 -1245 1245 1245))
+      (shape (rect B.Cu -1245 -1245 1245 1245))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_2565x2565_um
+      (shape (rect F.Cu -1282.5 -1282.5 1282.5 1282.5))
+      (shape (rect B.Cu -1282.5 -1282.5 1282.5 1282.5))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_3200x3200_um
+      (shape (rect F.Cu -1600 -1600 1600 1600))
+      (shape (rect B.Cu -1600 -1600 1600 1600))
+      (attach off)
+    )
+    (padstack "Via[0-1]_800:400_um"
+      (shape (circle F.Cu 800))
+      (shape (circle B.Cu 800))
+      (attach off)
+    )
+  )
+  (network
+    (net brown2
+      (pins D1-1 D2-2 R3-2 R4-2 R5-2 R6-2 R9-1 R10-1 R11-1 R12-1)
+    )
+    (net blueP
+      (pins D1-2 Q1-2 Q2-2)
+    )
+    (net red2
+      (pins D2-1 Q3-2 Q4-2)
+    )
+    (net "Net-(Q1-Pad1)"
+      (pins Q1-1 R1-1)
+    )
+    (net "Net-(Q1-Pad3)"
+      (pins Q1-3 R3-1 R4-1)
+    )
+    (net green
+      (pins Q2-3 R5-1 R6-1)
+    )
+    (net "Net-(Q2-Pad1)"
+      (pins Q2-1 R2-1)
+    )
+    (net "Net-(Q3-Pad1)"
+      (pins Q3-1 R8-2)
+    )
+    (net blue
+      (pins Q3-3 R9-2 R10-2)
+    )
+    (net "Net-(Q4-Pad3)"
+      (pins Q4-3 R11-2 R12-2)
+    )
+    (net "Net-(Q4-Pad1)"
+      (pins Q4-1 R7-2)
+    )
+    (net orange
+      (pins R1-2 R2-2)
+    )
+    (net yellow
+      (pins R7-1 R8-1)
+    )
+    (class kicad_default "" "Net-(Q1-Pad1)" "Net-(Q1-Pad3)" "Net-(Q2-Pad1)"
+      "Net-(Q3-Pad1)" "Net-(Q4-Pad1)" "Net-(Q4-Pad3)" blue blueP brown2 green
+      orange red2 yellow
+      (circuit
+        (use_via Via[0-1]_800:400_um)
+      )
+      (rule
+        (width 250)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
